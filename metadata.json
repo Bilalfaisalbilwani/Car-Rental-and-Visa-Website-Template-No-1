@@ -1,0 +1,8 @@
+{
+  "name": "ZONE TOURISM × HOTWHEELS CAR RENTAL",
+  "description": "Premium UAE visa services and luxury self-drive & chauffeur car rental in Dubai. Midnight Luxe editorial digital experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

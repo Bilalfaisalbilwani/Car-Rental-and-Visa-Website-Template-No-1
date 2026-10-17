@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-midnight: #102C2B;
+    --color-forest: #193D38;
+    --color-ivory: #F7F1E7;
+    --color-sand: #E9E0D1;
+    --color-gold: #D7BC8A;
+    --color-sage: #DCE5DF;
+    --color-text-dark: #F7F1E7;
+    --color-text-light: #182B27;
+  }
+
+  body {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    background-color: #F7F1E7;
+    color: #182B27;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar matching midnight luxe */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #102C2B;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7BC8A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a872;
+}
+
+/* Print styles for booking dossiers and visa packages */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
